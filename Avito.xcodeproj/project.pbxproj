@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0386C5BD71580B443879FD03 /* Pods_Avito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6705C8EA644D0D695D56518A /* Pods_Avito.framework */; };
 		CEDB89FC28AFB73200B5F9D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB89FB28AFB73200B5F9D4 /* AppDelegate.swift */; };
 		CEDB89FE28AFB73200B5F9D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB89FD28AFB73200B5F9D4 /* SceneDelegate.swift */; };
 		CEDB8A0028AFB73200B5F9D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB89FF28AFB73200B5F9D4 /* ViewController.swift */; };
 		CEDB8A0328AFB73200B5F9D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDB8A0128AFB73200B5F9D4 /* Main.storyboard */; };
 		CEDB8A0528AFB73800B5F9D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDB8A0428AFB73800B5F9D4 /* Assets.xcassets */; };
 		CEDB8A0828AFB73800B5F9D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDB8A0628AFB73800B5F9D4 /* LaunchScreen.storyboard */; };
+		CEDB8A1128AFB7D300B5F9D4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB8A0F28AFB7D300B5F9D4 /* TableViewCell.swift */; };
+		CEDB8A1228AFB7D300B5F9D4 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDB8A1028AFB7D300B5F9D4 /* TableViewCell.xib */; };
+		CEDB8A1428AFB84200B5F9D4 /* CompanyDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB8A1328AFB84200B5F9D4 /* CompanyDM.swift */; };
+		CEDB8A1628AFD25C00B5F9D4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB8A1528AFD25C00B5F9D4 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6704399420C7104E4BC1DFBB /* Pods-Avito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avito.debug.xcconfig"; path = "Target Support Files/Pods-Avito/Pods-Avito.debug.xcconfig"; sourceTree = "<group>"; };
+		6705C8EA644D0D695D56518A /* Pods_Avito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Avito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4359CA66D5DDB6F15BDC50C /* Pods-Avito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Avito.release.xcconfig"; path = "Target Support Files/Pods-Avito/Pods-Avito.release.xcconfig"; sourceTree = "<group>"; };
 		CEDB89F828AFB73200B5F9D4 /* Avito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDB89FB28AFB73200B5F9D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEDB89FD28AFB73200B5F9D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		CEDB8A0428AFB73800B5F9D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDB8A0728AFB73800B5F9D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEDB8A0928AFB73800B5F9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDB8A0F28AFB7D300B5F9D4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CEDB8A1028AFB7D300B5F9D4 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		CEDB8A1328AFB84200B5F9D4 /* CompanyDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDM.swift; sourceTree = "<group>"; };
+		CEDB8A1528AFD25C00B5F9D4 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0386C5BD71580B443879FD03 /* Pods_Avito.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F2B445F5FE5F039C35604D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6705C8EA644D0D695D56518A /* Pods_Avito.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEDB89EF28AFB73200B5F9D4 = {
 			isa = PBXGroup;
 			children = (
 				CEDB89FA28AFB73200B5F9D4 /* Avito */,
 				CEDB89F928AFB73200B5F9D4 /* Products */,
+				D52DB760AF99622B67A703B4 /* Pods */,
+				9F2B445F5FE5F039C35604D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +86,21 @@
 				CEDB8A0428AFB73800B5F9D4 /* Assets.xcassets */,
 				CEDB8A0628AFB73800B5F9D4 /* LaunchScreen.storyboard */,
 				CEDB8A0928AFB73800B5F9D4 /* Info.plist */,
+				CEDB8A0F28AFB7D300B5F9D4 /* TableViewCell.swift */,
+				CEDB8A1028AFB7D300B5F9D4 /* TableViewCell.xib */,
+				CEDB8A1328AFB84200B5F9D4 /* CompanyDM.swift */,
+				CEDB8A1528AFD25C00B5F9D4 /* Reachability.swift */,
 			);
 			path = Avito;
+			sourceTree = "<group>";
+		};
+		D52DB760AF99622B67A703B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6704399420C7104E4BC1DFBB /* Pods-Avito.debug.xcconfig */,
+				C4359CA66D5DDB6F15BDC50C /* Pods-Avito.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEDB8A0C28AFB73800B5F9D4 /* Build configuration list for PBXNativeTarget "Avito" */;
 			buildPhases = (
+				925DC4DB6B5FA8F3EC4A5E15 /* [CP] Check Pods Manifest.lock */,
 				CEDB89F428AFB73200B5F9D4 /* Sources */,
 				CEDB89F528AFB73200B5F9D4 /* Frameworks */,
 				CEDB89F628AFB73200B5F9D4 /* Resources */,
+				D506E3577B26D0D484CC47F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDB8A0828AFB73800B5F9D4 /* LaunchScreen.storyboard in Resources */,
+				CEDB8A1228AFB7D300B5F9D4 /* TableViewCell.xib in Resources */,
 				CEDB8A0528AFB73800B5F9D4 /* Assets.xcassets in Resources */,
 				CEDB8A0328AFB73200B5F9D4 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +172,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		925DC4DB6B5FA8F3EC4A5E15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Avito-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D506E3577B26D0D484CC47F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Avito/Pods-Avito-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Avito/Pods-Avito-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Avito/Pods-Avito-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEDB89F428AFB73200B5F9D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CEDB8A0028AFB73200B5F9D4 /* ViewController.swift in Sources */,
+				CEDB8A1128AFB7D300B5F9D4 /* TableViewCell.swift in Sources */,
+				CEDB8A1628AFD25C00B5F9D4 /* Reachability.swift in Sources */,
 				CEDB89FC28AFB73200B5F9D4 /* AppDelegate.swift in Sources */,
 				CEDB89FE28AFB73200B5F9D4 /* SceneDelegate.swift in Sources */,
+				CEDB8A1428AFB84200B5F9D4 /* CompanyDM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +366,7 @@
 		};
 		CEDB8A0D28AFB73800B5F9D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6704399420C7104E4BC1DFBB /* Pods-Avito.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +380,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +396,7 @@
 		};
 		CEDB8A0E28AFB73800B5F9D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4359CA66D5DDB6F15BDC50C /* Pods-Avito.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +410,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
